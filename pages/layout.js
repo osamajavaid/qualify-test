@@ -2,10 +2,18 @@
 export default function Layout({ children }) {
 
     return (
-        <div className={`h-screen lg:p-[0.8rem] flex flex-col select-none`}>
-            hahfahdfhdsfadsjfhdsjh
+        <div className="">
+            {/* header */}
+            <header className="bg-gray-600 py-2">
+                <center className="text-white">testing</center>
+            </header>
+
             {children}
-            sdffsdfsd
+
+            {/* footer */}
+            <footer className="bg-gray-600 py-2">
+                <center className="text-white">footer</center>
+            </footer>
         </div>
     )
 }
