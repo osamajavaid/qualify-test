@@ -71,7 +71,7 @@ const home = () => {
 
     return (
         <div className="flex flex-col gap-y-10 items-center justify-center text-white text-3xl my-10">
-            <span>Check the index page in App directory</span>
+            <span>Check the index page in PAGES directory</span>
             <span>OR</span>
             <span>Check the Consoles Tab to see the results</span>
         </div>
