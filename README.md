@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -12,25 +10,35 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<h1>Qualifying test for Junior Document Generation Specialist role</h1>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Please answer the following questions with reference to the provided file `data.json`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Write a JS expression that returns the number of DIRECTORS.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Write a JS expression that returns the number of SHAREHOLDERS.
 
-## Learn More
+3. Write a JS expression that lists the full names of all position holders.
 
-To learn more about Next.js, take a look at the following resources:
+4A. Is Product B hardware or software?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4B. Does Product A have a price of “100”?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4C. Is the launch date of Product B the 6th January 2010?
 
-## Deploy on Vercel
+5. Write a JS expression that prints the effective date formatted in YYYY-MMM-DD format.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. What is the JSON address in object notation that stores Robert Johnson’s email address? 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+7. Write a JS expression that returns an array of all unique email domains of the position holders.
+
+8. Write a JS expression that returns an array of objects containing the names and email addresses of all DIRECTORS.
+
+9. Write a JS function that takes an email domain as a parameter and returns an array of objects containing the names, email addresses, and corresponding _id of all position holders whose email addresses belong to the specified domain.
+
+10. Write a JavaScript function that returns an array of objects containing the names and email addresses of the top 3 shareholders with the highest number of shares. The function should only consider shareholders whose email addresses belong to the “example.com” domain.
+To determine the top shareholders, consider the following criteria:
+●	The number of shares held by each shareholder is stored in a separate array called “shareholdings”, you need to correlate this with the “global.positions” array.
+●	The order of shareholders in the “global.positions” array corresponds to the order of their shareholdings in the “shareholdings” array.
+●	The length of the “shareholdings” array is equal to the number of shareholders.
+
